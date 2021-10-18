@@ -7,6 +7,7 @@ export default function Signup() {
         name: '',
         age: '',
         location: '',
+      
         
     }
 
@@ -15,11 +16,9 @@ export default function Signup() {
     const handleChange = (e) => {
         const { name, value, type } = e.target
 
-        // const [interstsArray,setInterestArray]=useState([])
-
         setFormdata({
           ...formdata,
-          [name]: type === "checkbox" ? ['technology','food', value] : value,
+          [name]: type === "checkbox" ? ['technology','food',value] : value,
         });
     }
 
@@ -27,7 +26,6 @@ export default function Signup() {
         e.preventDefault()
         axios.post("  http://localhost:3001/users", formdata);
         setFormdata(formdata)
-
     }
 
 

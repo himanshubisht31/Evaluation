@@ -129,6 +129,53 @@
         "drama"
       ],
       "id": 15
+    },
+    {
+      "name": "Shikhar",
+      "age": "",
+      "location": "",
+      "technology": false,
+      "food": false,
+      "language": false,
+      "movies": false,
+      "drama": false,
+      "Interest": "drama",
+      "id": 16
+    },
+    {
+      "name": "Shikhar",
+      "age": "",
+      "location": "",
+      "technology": false,
+      "food": false,
+      "language": false,
+      "movies": false,
+      "drama": false,
+      "Interest": "drama",
+      "id": 17
+    },
+    {
+      "name": "Shikhar",
+      "age": "",
+      "location": "",
+      "technology": false,
+      "food": false,
+      "language": false,
+      "movies": false,
+      "drama": false,
+      "Interest": "drama",
+      "id": 18
+    },
+    {
+      "name": "himanshu",
+      "age": "",
+      "location": "",
+      "Interest": [
+        "technology",
+        "food",
+        "drama"
+      ],
+      "id": 19
     }
   ]
 }
