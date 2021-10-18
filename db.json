@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "name": "Himanshu",
+      "age": "22",
+      "location": "hld",
+      "interest": "",
+      "Interest": true,
+      "id": 1
+    },
+    {
+      "name": "Himanshu",
+      "age": "22",
+      "location": "hld",
+      "interest": "",
+      "Interest": true,
+      "id": 2
+    },
+    {
+      "name": "Himanshu",
+      "age": "22",
+      "location": "hld",
+      "interest": "",
+      "Interest": true,
+      "id": 3
+    },
+    {
+      "name": "Himanshu",
+      "age": "22",
+      "location": "hld",
+      "interest": "",
+      "Interest": true,
+      "id": 4
+    },
+    {
+      "name": "Himanshu",
+      "age": "22",
+      "location": "hld",
+      "interest": "",
+      "Interest": true,
+      "id": 5
+    },
+    {
+      "name": "Himanshu",
+      "age": "22",
+      "location": "hld",
+      "interest": "",
+      "Interest": true,
+      "id": 6
+    },
+    {
+      "name": "Deepak",
+      "age": "22",
+      "location": "hld",
+      "Interest": true,
+      "id": 7
+    },
+    {
+      "name": "Deepak",
+      "age": "22",
+      "location": "hld",
+      "Interest": true,
+      "id": 8
+    },
+    {
+      "name": "Deepak",
+      "age": "22",
+      "location": "hld",
+      "Interest": true,
+      "id": 9
+    },
+    {
+      "name": "Deepak",
+      "age": "22",
+      "location": "hld",
+      "Interest": true,
+      "id": 10
+    },
+    {
+      "name": "Deepak",
+      "age": "22",
+      "location": "hld",
+      "Interest": true,
+      "id": 11
+    },
+    {
+      "name": "sdsadasdas",
+      "age": "",
+      "location": "",
+      "Interest": [
+        "d",
+        "r",
+        "a",
+        "m",
+        "a"
+      ],
+      "id": 12
+    },
+    {
+      "name": "Shikha",
+      "age": "",
+      "location": "",
+      "Interest": [
+        "d",
+        "r",
+        "a",
+        "m",
+        "a",
+        "drama"
+      ],
+      "id": 13
+    }
+  ]
+}

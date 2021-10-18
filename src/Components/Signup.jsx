@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios'
 
 export default function Signup() {
 
@@ -6,30 +7,90 @@ export default function Signup() {
         name: '',
         age: '',
         location: '',
-        interest:'',
+        
     }
+
+    const [formdata,setFormdata]=useState(initVal)
+
+    const handleChange = (e) => {
+        const {name,value,checked,type}=e.target
+
+        setFormdata({
+          ...formdata,
+          [name]: type === "checkbox" ? [ value] : value,
+        });
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        axios.post("  http://localhost:3001/users", formdata);
+        setFormdata(formdata)
+
+    }
+
 
     return (
       <div>
-        <form action="">
-          <input type="text" placeholder="name" />
-          <input type="number" placeholder="age" />
-          <input type="text" placeholder="location" /> <br />
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="name"
+            onChange={handleChange}
+            placeholder="Enter Name"
+          />
+          <input type="number" name="age" onChange={handleChange} />
+          <input
+            name="location"
+            onChange={handleChange}
+            type="text"
+            placeholder="location"
+          />{" "}
+          <br />
           <label htmlFor="">technology</label>
-                <input type="checkbox" name="technology" />
-                <br />
+          <input
+            name="Interest"
+            onChange={handleChange}
+            type="checkbox"
+            value="technology"
+          />
+          <br />
           <label htmlFor="">food</label>
-                <input type="checkbox" name="food" />
-                <br />
+          <input
+            name="Interest"
+            onChange={handleChange}
+            type="checkbox"
+            value="food"
+          />
+          <br />
           <label htmlFor="">movies</label>
-                <input type="checkbox" name="movies" />
-                <br />
+          <input
+            name="Interest"
+            onChange={handleChange}
+            type="checkbox"
+            value="movies"
+          />
+          <br />
           <label htmlFor="">language </label>
-                <input type="checkbox" name="language " />
-                <br />
+          <input
+            name="Interest"
+            onChange={handleChange}
+            type="checkbox"
+            value="language"
+          />
+          <br />
           <label htmlFor="">drama </label>
-                <input type="checkbox" name="drama " />
-                <br />
+          <input
+            name="Interest"
+            onChange={handleChange}
+            type="checkbox"
+            value="drama"
+          />
+          <br />
+          <input
+         
+            type="submit"
+            value="submit"
+          />
         </form>
       </div>
     );
