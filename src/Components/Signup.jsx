@@ -13,11 +13,13 @@ export default function Signup() {
     const [formdata,setFormdata]=useState(initVal)
 
     const handleChange = (e) => {
-        const {name,value,checked,type}=e.target
+        const { name, value, type } = e.target
+
+        // const [interstsArray,setInterestArray]=useState([])
 
         setFormdata({
           ...formdata,
-          [name]: type === "checkbox" ? [ value] : value,
+          [name]: type === "checkbox" ? ['technology','food', value] : value,
         });
     }
 
