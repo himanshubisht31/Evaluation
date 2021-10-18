@@ -19,7 +19,7 @@ export default function Signup() {
 
         setFormdata({
           ...formdata,
-          [name]: type === "checkbox" ? ['technology','food',value] : value,
+          [name]: type === "checkbox" ?value : value,
         });
     }
 

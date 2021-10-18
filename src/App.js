@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Signup from './Components/Signup';
 import Login from './Components/Login';
 import { Route } from 'react-router-dom'
+import Dashboard from './Components/Dashboard';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
       <Route exact path='/signup'>
 
         <Signup />
+
+      </Route>
+
+      <Route exact path='/dashboard'>
+
+        <Dashboard />
 
       </Route>
 
