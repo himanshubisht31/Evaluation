@@ -1,181 +1,41 @@
 {
   "users": [
     {
-      "name": "Himanshu",
+      "name": "",
       "age": "22",
       "location": "hld",
-      "interest": "",
-      "Interest": true,
+      "user_name": "Deepu",
+      "password": "123",
+      "Interest": [
+        "technology",
+        "food",
+        "language"
+      ],
       "id": 1
     },
     {
-      "name": "Himanshu",
-      "age": "22",
+      "user_name": "Shikhar",
+      "password": "123",
+      "age": "12",
       "location": "hld",
-      "interest": "",
-      "Interest": true,
+      "Interest": [
+        "technology",
+        "food",
+        "drama"
+      ],
       "id": 2
     },
     {
-      "name": "Himanshu",
-      "age": "22",
+      "user_name": "Shikhar",
+      "password": "123",
+      "age": "12",
       "location": "hld",
-      "interest": "",
-      "Interest": true,
+      "Interest": [
+        "technology",
+        "food",
+        "drama"
+      ],
       "id": 3
-    },
-    {
-      "name": "Himanshu",
-      "age": "22",
-      "location": "hld",
-      "interest": "",
-      "Interest": true,
-      "id": 4
-    },
-    {
-      "name": "Himanshu",
-      "age": "22",
-      "location": "hld",
-      "interest": "",
-      "Interest": true,
-      "id": 5
-    },
-    {
-      "name": "Himanshu",
-      "age": "22",
-      "location": "hld",
-      "interest": "",
-      "Interest": true,
-      "id": 6
-    },
-    {
-      "name": "Deepak",
-      "age": "22",
-      "location": "hld",
-      "Interest": true,
-      "id": 7
-    },
-    {
-      "name": "Deepak",
-      "age": "22",
-      "location": "hld",
-      "Interest": true,
-      "id": 8
-    },
-    {
-      "name": "Deepak",
-      "age": "22",
-      "location": "hld",
-      "Interest": true,
-      "id": 9
-    },
-    {
-      "name": "Deepak",
-      "age": "22",
-      "location": "hld",
-      "Interest": true,
-      "id": 10
-    },
-    {
-      "name": "Deepak",
-      "age": "22",
-      "location": "hld",
-      "Interest": true,
-      "id": 11
-    },
-    {
-      "name": "sdsadasdas",
-      "age": "",
-      "location": "",
-      "Interest": [
-        "d",
-        "r",
-        "a",
-        "m",
-        "a"
-      ],
-      "id": 12
-    },
-    {
-      "name": "Shikha",
-      "age": "",
-      "location": "",
-      "Interest": [
-        "d",
-        "r",
-        "a",
-        "m",
-        "a",
-        "drama"
-      ],
-      "id": 13
-    },
-    {
-      "name": "Sati",
-      "age": "",
-      "location": "",
-      "Interest": [
-        "language"
-      ],
-      "id": 14
-    },
-    {
-      "name": "Sati",
-      "age": "",
-      "location": "",
-      "Interest": [
-        "technology",
-        "food",
-        "drama"
-      ],
-      "id": 15
-    },
-    {
-      "name": "Shikhar",
-      "age": "",
-      "location": "",
-      "technology": false,
-      "food": false,
-      "language": false,
-      "movies": false,
-      "drama": false,
-      "Interest": "drama",
-      "id": 16
-    },
-    {
-      "name": "Shikhar",
-      "age": "",
-      "location": "",
-      "technology": false,
-      "food": false,
-      "language": false,
-      "movies": false,
-      "drama": false,
-      "Interest": "drama",
-      "id": 17
-    },
-    {
-      "name": "Shikhar",
-      "age": "",
-      "location": "",
-      "technology": false,
-      "food": false,
-      "language": false,
-      "movies": false,
-      "drama": false,
-      "Interest": "drama",
-      "id": 18
-    },
-    {
-      "name": "himanshu",
-      "age": "",
-      "location": "",
-      "Interest": [
-        "technology",
-        "food",
-        "drama"
-      ],
-      "id": 19
     }
   ]
 }

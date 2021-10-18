@@ -4,7 +4,8 @@ import axios from 'axios'
 export default function Signup() {
 
     const initVal = {
-        name: '',
+        user_name: '',
+        password:'',
         age: '',
         location: '',
       
@@ -34,11 +35,22 @@ export default function Signup() {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            name="name"
+            name="user_name"
             onChange={handleChange}
             placeholder="Enter Name"
           />
-          <input type="number" name="age" onChange={handleChange} />
+          <input
+            type="password"
+            name="password"
+            onChange={handleChange}
+            placeholder="Enter password"
+          />
+          <input
+            type="number"
+            name="age"
+            onChange={handleChange}
+            placeholder="age"
+          />
           <input
             name="location"
             onChange={handleChange}
@@ -86,11 +98,7 @@ export default function Signup() {
             value="drama"
           />
           <br />
-          <input
-         
-            type="submit"
-            value="submit"
-          />
+          <input type="submit" value="submit" />
         </form>
       </div>
     );
